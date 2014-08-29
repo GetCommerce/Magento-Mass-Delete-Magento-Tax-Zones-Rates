@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Getsquare_Selecttaxgrid>
+			<active>true</active>
+			<codePool>local</codePool>
+			<depends></depends>
+		</Getsquare_Selecttaxgrid>
+	</modules>
+</config>

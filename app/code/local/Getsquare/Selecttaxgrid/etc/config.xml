@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Getsquare_Selecttaxgrid>
+            <version>1.0.0</version>
+        </Getsquare_Selecttaxgrid>
+    </modules>
+    <global>
+        <helpers>
+            <selecttaxgrid>
+                <class>Getsquare_Selecttaxgrid_Helper</class>
+            </selecttaxgrid>
+        </helpers>
+
+        <blocks>
+            <adminhtml>
+                <rewrite>
+                    <tax_rate_grid>Getsquare_Selecttaxgrid_Block_Adminhtml_Tax_Rate_Grid</tax_rate_grid>
+                </rewrite>
+            </adminhtml>
+        </blocks>
+    </global>
+    <admin>
+        <routers>
+            <getsqaure_selecttaxgrid>
+                <use>admin</use>
+                <args>
+                    <module>Getsquare_Selecttaxgrid</module>
+                    <frontName>selecttaxgrid</frontName>
+                </args>
+            </getsqaure_selecttaxgrid>
+        </routers>
+    </admin>
+    
+</config>
