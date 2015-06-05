@@ -1,0 +1,14 @@
+{
+  "name": "getcommerce/magento-mass-delete-magento-tax-zones-rates",
+  "license": ["OSL-3.0"],
+  "type": "magento-module",
+  "description": "We can import Mageno Tax Zones & Rates in bulk but by default it isn't possible to delete en masse? Here is how to create an extension to introduce a select column and delete action to the grid.",
+  "homepage": "https://github.com/GetCommerce/Magento-Mass-Delete-Magento-Tax-Zones-Rates",
+  "authors":[{
+    "name": "Ross Knight",
+    "email": "ross@getsquare.co.uk"
+  }], 
+  "require": {
+    "magento-hackathon/magento-composer-installer": "*"
+  }
+}
